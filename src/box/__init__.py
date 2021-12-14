@@ -11,7 +11,7 @@ __title__ = 'box'
 __author__ = 'VincentRPS'
 __license__ = 'GNU Affero'
 __copyright__ = 'Copyright 2021 VincentRPS'
-__version__ = '0.1'
+__version__ = '0.1.0'
 
 import logging
 from typing import NamedTuple, Literal
@@ -26,6 +26,6 @@ class VersionInfo(NamedTuple):
     serial: int
 
 
-version_info: VersionInfo = VersionInfo(major=2, minor=0, micro=0, releaselevel='alpha', serial=0)
+version_info: VersionInfo = VersionInfo(major=0, minor=1, micro=0, releaselevel='alpha', serial=0)
 
 logging.getLogger(__name__).addHandler(logging.NullHandler())

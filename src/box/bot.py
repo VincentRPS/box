@@ -40,6 +40,3 @@ class Bot(pincer.Client):
     async def slash_command(self):
         if self.prefix_only == True:
             _log.fatal("Please use `Bot.command` instead for prefixed only commands.")
-        
-        else:
-            pass
